@@ -1,10 +1,10 @@
-#TD-de-machine-Learning-Cat-gorisation-musicale_FOUR_Sebastien_LECOMTE_LOUIS
+# TD-de-machine-Learning-Cat-gorisation-musicale_FOUR_Sebastien_LECOMTE_LOUIS
  TD de machine Learning : Catégorisation musicale  Elective : Machine Learning Professeur : Théophile Ravillion Date : Vendredi 23 Avril 2021
 
 
-#Feuille de route
+# Feuille de route
 
-##Comment procéder ? Pour réaliser cet exercice, il vous faudra :
+## Comment procéder ? Pour réaliser cet exercice, il vous faudra :
 Récuperer les données
 ```
 In [4]:
@@ -17,14 +17,14 @@ df_train = pd.read_csv(url_train, sep=',', decimal='.' )
 df_test = pd.read_csv(url_test, sep=',', decimal='.' )
 ```
 
-##Analyser les données
+## Analyser les données
 
 Identifier la distribution de chaque variable
 Données manquantes
 Données aberrantes
 Données corrélées entre elles
 
-####Boite à outils :
+#### Boite à outils :
 
 Décrire le contenu d'un dataframe pandas
 ```
