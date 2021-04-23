@@ -36,7 +36,7 @@ Histograme : https://seaborn.pydata.org/generated/seaborn.histplot.html
 PairPlot : https://seaborn.pydata.org/generated/seaborn.pairplot.html
 Corrélogramme : https://seaborn.pydata.org/generated/seaborn.heatmap.html
 
-####Imputation des valeurs manquantes :
+#### Imputation des valeurs manquantes :
 
 KNNImputer : https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html
 
@@ -77,7 +77,7 @@ ex : selectionner toutes les lignes dont le prix est supérieur à 100 :
 df[df['prix'] > 100]
 ```
 
-##Normaliser les données
+## Normaliser les données
 
 Choisir une méthode de normalisation, comparer les résultats obtenus avec différentes méthodes
 Boite à outils
@@ -123,7 +123,7 @@ Regression logistique : https://scikit-learn.org/stable/modules/generated/sklear
 In [ ]:
 
 
-##Comparer la performance de différents algorithmes
+## Comparer la performance de différents algorithmes
 
 Faire des prédictions et evaluer leur justesse de ces prédictions à l'aide de différents indicateurs :
 
@@ -142,7 +142,7 @@ Faire une prédiction avec un model sklearn entrainé :
 y_pred_1 = model_1.predict(X_val, y_val)
 ```
 
-##Optimiser les hyper-paramètres de l’algorithme retenu
+## Optimiser les hyper-paramètres de l’algorithme retenu
 
 Tester différents hyper-paramètres pour tirer au mieux partit de l'algorithme retenu
 Boite à outils
@@ -150,7 +150,7 @@ Boite à outils
 GridSearchCV : https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 
 
-##Prédire des valeurs pour le jeu de test
+## Prédire des valeurs pour le jeu de test
 
 Créer un fichier au format .csv contenant vos prédictions. En header le nom des colonnes (music_id et prediction) et pour chacun des morceaux la catégorie prédite.
 
